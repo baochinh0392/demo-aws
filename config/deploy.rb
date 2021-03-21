@@ -60,4 +60,4 @@ set :puma_preload_app, false
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
-set :ssh_options, { forward_agent: true, user: 'ubuntu', keys: %w(~/.ssh/server_aws) }
+set :ssh_options, { forward_agent: false, user: 'ubuntu', keys: ['~/.ssh/test_server_aws'] }
