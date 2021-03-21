@@ -2,7 +2,7 @@
 lock "~> 3.16.0"
 
 set :application, "aws_demo"
-set :repo_url, "git@github.com:baochinh0392/demo-aws.git"
+set :repo_url, "https://github.com/baochinh0392/demo-aws.git"
 set :branch, :master
 set :deploy_to, '/home/ubuntu/aws_demo'
 set :pty, true
