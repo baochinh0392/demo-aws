@@ -50,6 +50,6 @@ test:
 #
 production:
   <<: *default
-  database: demo_aws_production
+  database: database_production
   username: demo_aws
   password: <%= ENV['DEMO_AWS_DATABASE_PASSWORD'] %>
