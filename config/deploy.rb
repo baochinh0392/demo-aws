@@ -6,7 +6,7 @@ set :repo_url, "https://github.com/baochinh0392/demo-aws.git"
 set :branch, :master
 set :deploy_to, '/home/ubuntu/aws_demo'
 set :pty, true
-set :linked_files, %w{config/database.yml config/application.yml}
+set :linked_files, %w{config/database.yml config/application.yml config/master.key}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}
 set :keep_releases, 5
 set :rbenv_type, :user
